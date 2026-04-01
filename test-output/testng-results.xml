@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Customer-00000003935   Customer-00000003935]]>
+    </line>
+    <line>
+      <![CDATA[Customer-00000003935 expected:<[Customer-00000003935]> but was:<[customer number not found]>]]>
+    </line>
+    <line>
+      <![CDATA[Customer-00000003936   Customer-00000003936]]>
+    </line>
+    <line>
+      <![CDATA[Customer-00000003936 expected:<[Customer-00000003936]> but was:<[customer number not found]>]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2026-03-23T22:27:34 GMT-04:00" name="Default suite" finished-at="2026-03-23T22:28:25 GMT-04:00" duration-ms="50861">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(cucumber.api.testng.PickleEventWrapper,cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:testRunner.AppTest@bcec361]" name="runScenario" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2026-03-23T22:27:34 GMT-04:00" name="Default test" finished-at="2026-03-23T22:28:25 GMT-04:00" duration-ms="50861">
+      <class name="testRunner.AppTest">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:testRunner.AppTest@bcec361]" started-at="2026-03-23T22:27:34 GMT-04:00" name="setUpClass" finished-at="2026-03-23T22:27:34 GMT-04:00" duration-ms="72" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(cucumber.api.testng.PickleEventWrapper,cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:testRunner.AppTest@bcec361]" started-at="2026-03-23T22:27:34 GMT-04:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-03-23T22:27:59 GMT-04:00" duration-ms="25604" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[""]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[""]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Customer-00000003935   Customer-00000003935]]>
+            </line>
+            <line>
+              <![CDATA[Customer-00000003935 expected:<[Customer-00000003935]> but was:<[customer number not found]>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(cucumber.api.testng.PickleEventWrapper,cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:testRunner.AppTest@bcec361]" started-at="2026-03-23T22:27:59 GMT-04:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-03-23T22:28:25 GMT-04:00" duration-ms="25102" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[""]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[""]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Customer-00000003936   Customer-00000003936]]>
+            </line>
+            <line>
+              <![CDATA[Customer-00000003936 expected:<[Customer-00000003936]> but was:<[customer number not found]>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:testRunner.AppTest@bcec361]" started-at="2026-03-23T22:28:25 GMT-04:00" name="tearDownClass" finished-at="2026-03-23T22:28:25 GMT-04:00" duration-ms="17" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- testRunner.AppTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
